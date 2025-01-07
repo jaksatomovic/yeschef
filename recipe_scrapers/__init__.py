@@ -110,6 +110,7 @@ from .cookieandkate import CookieAndKate
 from .cookiesandcups import CookiesAndCups
 from .cookingcircle import CookingCircle
 from .cookinglight import CookingLight
+from .cookingwithjanica import CookingWithJanica
 from .cookomix import Cookomix
 from .cookpad import CookPad
 from .cookscountry import CooksCountry
@@ -235,6 +236,7 @@ from .krollskorner import KrollsKorner
 from .kuchniadomowa import KuchniaDomowa
 from .kuchynalidla import KuchynaLidla
 from .kwestiasmaku import KwestiaSmaku
+from .lacucinaitaliana import LaCucinaItaliana
 from .lanascooking import LanasCooking
 from .latelierderoxane import LAtelierDeRoxane
 from .leanandgreenrecipes import LeanAndGreenRecipes
@@ -534,6 +536,7 @@ SCRAPERS = {
     CookiesAndCups.host(): CookiesAndCups,
     CookingCircle.host(): CookingCircle,
     CookingLight.host(): CookingLight,
+    CookingWithJanica.host(): CookingWithJanica,
     Cookomix.host(): Cookomix,
     CooksCountry.host(): CooksCountry,
     CooksIllustrated.host(): CooksIllustrated,
@@ -580,6 +583,8 @@ SCRAPERS = {
     KristinesKitchenBlog.host(): KristinesKitchenBlog,
     KrollsKorner.host(): KrollsKorner,
     KuchynaLidla.host(): KuchynaLidla,
+    LaCucinaItaliana.host(): LaCucinaItaliana,
+    LaCucinaItaliana.host(domain="com"): LaCucinaItaliana,
     LanasCooking.host(): LanasCooking,
     LittleSunnyKitchen.host(): LittleSunnyKitchen,
     LeitesCulinaria.host(): LeitesCulinaria,
